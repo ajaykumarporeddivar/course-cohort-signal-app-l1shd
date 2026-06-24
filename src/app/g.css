@@ -1,0 +1,43 @@
+@tailwind base;
+@wind components;
+@wind utilities;
+
+body {
+  @apply-zinc-50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font text-zinc-900;
+}
+
+.card {
+  @apply bg-white border border-zinc-200 rounded-xl shadow-sm;
+}
+
+.primary-action {
+  @apply bg-zinc-900 text-white hover:bg-zinc-700;
+}
+
+.success {
+  @apply text-emerald-600 bg-emerald-50 border-emerald-200;
+}
+
+.warning {
+  @apply text-amber-600 bg-amber-50 border-amber-200;
+}
+
+.error {
+  @apply text-red-600 bg-red-50 border-red-200;
+}
+
+.headings {
+  @apply font-bold text-zinc-900 tracking-tight;
+}
+
+.body-text {
+  @apply text-zinc-600;
+}
+
+.muted-text {
+  @apply text-zinc-400 text-sm;
+}
